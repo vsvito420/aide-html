@@ -1,0 +1,53 @@
+/* Grundlegende Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Bereich */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Hauptinhalt */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Bild-Container */
+.image-container {
+    float: left;
+    width: 50%;
+}
+
+.steve-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-text {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Seitentext */
+.side-text {
+    float: right;
+    width: 45%;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .image-container, .side-text {
+        float: none;
+        width: 100%;
+    }
+}
